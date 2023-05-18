@@ -133,6 +133,9 @@ var App;
     App.Component = Component;
 })(App || (App = {}));
 /// <reference path="base-components.ts" />
+/// <reference path="../decorators/autobind.ts" />
+/// <reference path="../utils/validation.ts" />
+/// <reference path="../state/project-state.ts" />
 var App;
 (function (App) {
     // * ProjectInput Class
@@ -199,6 +202,9 @@ var App;
     App.ProjectInput = ProjectInput;
 })(App || (App = {}));
 /// <reference path="base-components.ts" />
+/// <reference path="../decorators/autobind.ts" />
+/// <reference path="../models/project.ts" />
+/// <reference path="../models/drag-drop.ts" />
 var App;
 (function (App) {
     // * ProjectItem Class
@@ -241,6 +247,10 @@ var App;
     App.ProjectItem = ProjectItem;
 })(App || (App = {}));
 /// <reference path="base-components.ts" />
+/// <reference path="../decorators/autobind.ts" />
+/// <reference path="../state/project-state.ts" />
+/// <reference path="../models/project.ts" />
+/// <reference path="../models/drag-drop.ts" />
 var App;
 (function (App) {
     // * ProjectList Class
